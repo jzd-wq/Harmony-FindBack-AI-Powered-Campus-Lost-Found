@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "拾光失物"
+    },
+    {
+      "name": "module_desc",
+      "value": "高校学生失物主动匹配应用"
+    },
+    {
+      "name": "entry_desc",
+      "value": "拾光失物入口"
+    }
+  ]
+}

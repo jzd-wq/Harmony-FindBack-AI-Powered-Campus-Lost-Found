@@ -1,0 +1,10 @@
+{
+  "app": {
+    "icon": "$media:campus_hero",
+    "label": "$string:app_name",
+    "bundleName": "com.shiguang.lostfound",
+    "vendor": "shiguang",
+    "versionCode": 1,
+    "versionName": "0.1.0"
+  }
+}

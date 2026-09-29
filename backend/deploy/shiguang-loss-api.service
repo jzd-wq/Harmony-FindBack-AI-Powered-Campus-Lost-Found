@@ -1,0 +1,25 @@
+[Unit]
+Description=Shiguang Lost and Found API
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=shiguang
+Group=shiguang
+WorkingDirectory=/opt/shiguang-loss/backend
+Environment=APP_ENV=production
+Environment=DATABASE_URL=sqlite:////var/lib/shiguang-loss/shiguang.db
+ExecStart=/opt/shiguang-loss/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=3
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+StateDirectory=shiguang-loss
+ReadWritePaths=/opt/shiguang-loss/backend/uploads
+
+[Install]
+WantedBy=multi-user.target

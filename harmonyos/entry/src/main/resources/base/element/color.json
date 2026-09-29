@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "brand_blue",
+      "value": "#315EFB"
+    },
+    {
+      "name": "page_background",
+      "value": "#F6F8FC"
+    },
+    {
+      "name": "text_primary",
+      "value": "#182230"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#6B7280"
+    }
+  ]
+}

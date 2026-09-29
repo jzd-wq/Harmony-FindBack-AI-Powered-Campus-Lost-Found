@@ -1,0 +1,43 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/*.db
+backend/uploads/
+node_modules/
+build/
+dist/
+harmonyos/.hvigor/
+harmonyos/.idea/
+harmonyos/entry/build/
+
+# Local environments, generated previews, release packages, and handoff copies
+/.hvigor/
+/outputs/
+/release/
+/work/
+/AI_HANDOFF.md
+**/.venv*/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+backend/logs/
+
+# Local data and signing material
+*.db
+*.sqlite
+*.hap
+*.hsp
+*.app
+*.p12
+*.p7b
+*.cer
+*.pem
+*.key
+*.zip
+
+# Local UI inspection artifacts
+harmonyos/final-ui*.json
+harmonyos/screen-*.jpeg
